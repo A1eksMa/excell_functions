@@ -1,27 +1,21 @@
-#import .logical
-import compatibility\n
-import cube\n
-import database\n
-import datetime\n
-import engineering\n
-import financial\n
-import information\n
-import lookup\n
-import math\n
-import statistical\n
-import text\n
-import users\n
-import web\n
-import compatibility\n
-import cube\n
-import database\n
-import datetime\n
-import engineering\n
-import financial\n
-import information\n
-import lookup\n
-import math\n
-import statistical\n
-import text\n
-import users\n
-import web\n
+import numpy as np
+import pandas as pd
+import datetime as dt
+
+import warnings
+warnings.filterwarnings('ignore')
+
+import comptibility
+import cube
+import database
+import datetime
+import engineering
+import financial
+import information
+import logical
+import lookup
+import math
+import statistical
+import text
+import users
+import web
