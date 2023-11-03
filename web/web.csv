@@ -1,0 +1,4 @@
+Function;Description
+ENCODEURL function;'Returns a URL-encoded string'
+FILTERXML function;'Returns specific data from the XML content by using the specified XPath'
+WEBSERVICE function;'Returns data from a web service'

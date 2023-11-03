@@ -1,0 +1,13 @@
+Function;Description
+DAVERAGE function;'Returns the average of selected database entries'
+DCOUNT function;'Counts the cells that contain numbers in a database'
+DCOUNTA function;'Counts nonblank cells in a database'
+DGET function;'Extracts from a database a single record that matches the specified criteria'
+DMAX function;'Returns the maximum value from selected database entries'
+DMIN function;'Returns the minimum value from selected database entries'
+DPRODUCT function;'Multiplies the values in a particular field of records that match the criteria in a database'
+DSTDEV function;'Estimates the standard deviation based on a sample of selected database entries'
+DSTDEVP function;'Calculates the standard deviation based on the entire population of selected database entries'
+DSUM function;'Adds the numbers in the field column of records in the database that match the criteria'
+DVAR function;'Estimates variance based on a sample from selected database entries'
+DVARP function;'Calculates variance based on the entire population of selected database entries'
