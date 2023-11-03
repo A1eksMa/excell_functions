@@ -28,10 +28,12 @@ def FALSE():
 
 
 # IF function
-def IF():
+def IF(condition, true, false):
     '''Specifies a logical test to perform'''
-    pass
-    return
+    if condition:
+        return true
+    else:
+        return false
 
 
 # IFERROR function
