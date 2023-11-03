@@ -5,17 +5,19 @@ import datetime as dt
 import warnings
 warnings.filterwarnings('ignore')
 
-import comptibility
-import cube
-import database
-import datetime
-import engineering
-import financial
-import information
-import logical
-import lookup
-import math
-import statistical
-import text
-import users
-import web
+'''
+from excell_functions import comptibility
+from excell_functions import cube
+from excell_functions import database
+from excell_functions import datetime
+from excell_functions import engineering
+from excell_functions import financial
+from excell_functions import information
+from excell_functions import logical
+from excell_functions import lookup
+from excell_functions import math
+from excell_functions import statistical
+from excell_functions import text
+from excell_functions import users
+from excell_functions import web
+'''
