@@ -77,7 +77,13 @@ def EXACT():
 
 
 # FIND, FINDB functions
-def FIND, FINDB ():
+def FIND():
+    '''Finds one text value within another (case-sensitive)'''
+    pass
+    return
+
+
+def FINDB():
     '''Finds one text value within another (case-sensitive)'''
     pass
     return
@@ -91,14 +97,26 @@ def FIXED():
 
 
 # LEFT, LEFTB functions
-def LEFT, LEFTB ():
+def LEFT():
+    '''Returns the leftmost characters from a text value'''
+    pass
+    return
+
+
+def LEFTB():
     '''Returns the leftmost characters from a text value'''
     pass
     return
 
 
 # LEN, LENB functions
-def LEN, LENB ():
+def LEN():
+    '''Returns the number of characters in a text string'''
+    pass
+    return
+
+
+def LENB():
     '''Returns the number of characters in a text string'''
     pass
     return
@@ -112,7 +130,13 @@ def LOWER():
 
 
 # MID, MIDB functions
-def MID, MIDB ():
+def MID():
+    '''Returns a specific number of characters from a text string starting at the position you specify'''
+    pass
+    return
+
+
+def MIDB():
     '''Returns a specific number of characters from a text string starting at the position you specify'''
     pass
     return
@@ -140,7 +164,13 @@ def PROPER():
 
 
 # REPLACE, REPLACEB functions
-def REPLACE, REPLACEB ():
+def REPLACE():
+    '''Replaces characters within text'''
+    pass
+    return
+
+
+def REPLACEB():
     '''Replaces characters within text'''
     pass
     return
@@ -154,14 +184,26 @@ def REPT():
 
 
 # RIGHT, RIGHTB functions
-def RIGHT, RIGHTB ():
+def RIGHT():
+    '''Returns the rightmost characters from a text value'''
+    pass
+    return
+
+
+def RIGHTB():
     '''Returns the rightmost characters from a text value'''
     pass
     return
 
 
 # SEARCH, SEARCHB functions
-def SEARCH, SEARCHB ():
+def SEARCH():
+    '''Finds one text value within another (not case-sensitive)'''
+    pass
+    return
+
+
+def SEARCHB():
     '''Finds one text value within another (not case-sensitive)'''
     pass
     return

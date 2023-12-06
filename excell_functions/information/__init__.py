@@ -7,7 +7,7 @@ def CELL():
 
 
 # ERROR.TYPE function
-def ERROR.TYPE():
+def ERROR_TYPE():
     '''Returns a number corresponding to an error type'''
     pass
     return

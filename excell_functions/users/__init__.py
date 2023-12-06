@@ -14,7 +14,7 @@ def EUROCONVERT():
 
 
 # REGISTER.ID function
-def REGISTER.ID():
+def REGISTER_ID():
     '''Returns the register ID of the specified dynamic link library (DLL) or code resource that has been previously registered'''
     pass
     return

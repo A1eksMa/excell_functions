@@ -98,14 +98,14 @@ def CEILING():
 
 
 # CEILING.MATH function
-def CEILING.MATH():
+def CEILING_MATH():
     '''Rounds a number up, to the nearest integer or to the nearest multiple of significance'''
     pass
     return
 
 
 # CEILING.PRECISE function
-def CEILING.PRECISE():
+def CEILING_PRECISE():
     '''Rounds a number the nearest integer or to the nearest multiple of significance. Regardless of the sign of the number, the number is rounded up.'''
     pass
     return
@@ -217,14 +217,14 @@ def FLOOR():
 
 
 # FLOOR.MATH function
-def FLOOR.MATH():
+def FLOOR_MATH():
     '''Rounds a number down, to the nearest integer or to the nearest multiple of significance'''
     pass
     return
 
 
 # FLOOR.PRECISE function
-def FLOOR.PRECISE():
+def FLOOR_PRECISE():
     '''Rounds a number down to the nearest integer or to the nearest multiple of significance. Regardless of the sign of the number, the number is rounded down.'''
     pass
     return
@@ -245,7 +245,7 @@ def INT():
 
 
 # ISO.CEILING function
-def ISO.CEILING():
+def ISO_CEILING():
     '''Returns a number that is rounded up to the nearest integer or to the nearest multiple of significance'''
     pass
     return

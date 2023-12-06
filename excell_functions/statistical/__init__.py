@@ -35,84 +35,84 @@ def AVERAGEIFS():
 
 
 # BETA.DIST function
-def BETA.DIST():
+def BETA_DIST():
     '''Returns the beta cumulative distribution function'''
     pass
     return
 
 
 # BETA.INV function
-def BETA.INV():
+def BETA_INV():
     '''Returns the inverse of the cumulative distribution function for a specified beta distribution'''
     pass
     return
 
 
 # BINOM.DIST function
-def BINOM.DIST():
+def BINOM_DIST():
     '''Returns the individual term binomial distribution probability'''
     pass
     return
 
 
 # BINOM.DIST.RANGE function
-def BINOM.DIST.RANGE():
+def BINOM_DIST_RANGE():
     '''Returns the probability of a trial result using a binomial distribution'''
     pass
     return
 
 
 # BINOM.INV function
-def BINOM.INV():
+def BINOM_INV():
     '''Returns the smallest value for which the cumulative binomial distribution is less than or equal to a criterion value'''
     pass
     return
 
 
 # CHISQ.DIST function
-def CHISQ.DIST():
+def CHISQ_DIST():
     '''Returns the cumulative beta probability density function'''
     pass
     return
 
 
 # CHISQ.DIST.RT function
-def CHISQ.DIST.RT():
+def CHISQ_DIST_RT():
     '''Returns the one-tailed probability of the chi-squared distribution'''
     pass
     return
 
 
 # CHISQ.INV function
-def CHISQ.INV():
+def CHISQ_INV():
     '''Returns the cumulative beta probability density function'''
     pass
     return
 
 
 # CHISQ.INV.RT function
-def CHISQ.INV.RT():
+def CHISQ_INV_RT():
     '''Returns the inverse of the one-tailed probability of the chi-squared distribution'''
     pass
     return
 
 
 # CHISQ.TEST function
-def CHISQ.TEST():
+def CHISQ_TEST():
     '''Returns the test for independence'''
     pass
     return
 
 
 # CONFIDENCE.NORM function
-def CONFIDENCE.NORM():
+def CONFIDENCE_NORM():
     '''Returns the confidence interval for a population mean'''
     pass
     return
 
 
 # CONFIDENCE.T function
-def CONFIDENCE.T():
+def CONFIDENCE_T():
     '''Returns the confidence interval for a population mean, using a Student's t distribution'''
     pass
     return
@@ -161,14 +161,14 @@ def COUNTIFS():
 
 
 # COVARIANCE.P function
-def COVARIANCE.P():
+def COVARIANCE_P():
     '''Returns covariance, the average of the products of paired deviations'''
     pass
     return
 
 
 # COVARIANCE.S function
-def COVARIANCE.S():
+def COVARIANCE_S():
     '''Returns the sample covariance, the average of the products deviations for each data point pair in two data sets'''
     pass
     return
@@ -182,42 +182,42 @@ def DEVSQ():
 
 
 # EXPON.DIST function
-def EXPON.DIST():
+def EXPON_DIST():
     '''Returns the exponential distribution'''
     pass
     return
 
 
 # F.DIST function
-def F.DIST():
+def F_DIST():
     '''Returns the F probability distribution'''
     pass
     return
 
 
 # F.DIST.RT function
-def F.DIST.RT():
+def F_DIST_RT():
     '''Returns the F probability distribution'''
     pass
     return
 
 
 # F.INV function
-def F.INV():
+def F_INV():
     '''Returns the inverse of the F probability distribution'''
     pass
     return
 
 
 # F.INV.RT function
-def F.INV.RT():
+def F_INV_RT():
     '''Returns the inverse of the F probability distribution'''
     pass
     return
 
 
 # F.TEST function
-def F.TEST():
+def F_TEST():
     '''Returns the result of an F-test'''
     pass
     return
@@ -245,35 +245,35 @@ def FORECAST():
 
 
 # FORECAST.ETS function
-def FORECAST.ETS():
+def FORECAST_ETS():
     '''Returns a future value based on existing (historical) values by using the AAA version of the Exponential Smoothing (ETS) algorithm'''
     pass
     return
 
 
 # FORECAST.ETS.CONFINT function
-def FORECAST.ETS.CONFINT():
+def FORECAST_ETS_CONFINT():
     '''Returns a confidence interval for the forecast value at the specified target date'''
     pass
     return
 
 
 # FORECAST.ETS.SEASONALITY function
-def FORECAST.ETS.SEASONALITY():
+def FORECAST_ETS_SEASONALITY():
     '''Returns the length of the repetitive pattern Excel detects for the specified time series'''
     pass
     return
 
 
 # FORECAST.ETS.STAT function
-def FORECAST.ETS.STAT():
+def FORECAST_ETS_STAT():
     '''Returns a statistical value as a result of time series forecasting'''
     pass
     return
 
 
 # FORECAST.LINEAR function
-def FORECAST.LINEAR():
+def FORECAST_LINEAR():
     '''Returns a future value based on existing values'''
     pass
     return
@@ -294,14 +294,14 @@ def GAMMA():
 
 
 # GAMMA.DIST function
-def GAMMA.DIST():
+def GAMMA_DIST():
     '''Returns the gamma distribution'''
     pass
     return
 
 
 # GAMMA.INV function
-def GAMMA.INV():
+def GAMMA_INV():
     '''Returns the inverse of the gamma cumulative distribution'''
     pass
     return
@@ -315,7 +315,7 @@ def GAMMALN():
 
 
 # GAMMALN.PRECISE function
-def GAMMALN.PRECISE():
+def GAMMALN_PRECISE():
     '''Returns the natural logarithm of the gamma function, Γ(x)'''
     pass
     return
@@ -350,7 +350,7 @@ def HARMEAN():
 
 
 # HYPGEOM.DIST function
-def HYPGEOM.DIST():
+def HYPGEOM_DIST():
     '''Returns the hypergeometric distribution'''
     pass
     return
@@ -392,14 +392,14 @@ def LOGEST():
 
 
 # LOGNORM.DIST function
-def LOGNORM.DIST():
+def LOGNORM_DIST():
     '''Returns the cumulative lognormal distribution'''
     pass
     return
 
 
 # LOGNORM.INV function
-def LOGNORM.INV():
+def LOGNORM_INV():
     '''Returns the inverse of the lognormal cumulative distribution'''
     pass
     return
@@ -455,49 +455,49 @@ def MINIFS():
 
 
 # MODE.MULT function
-def MODE.MULT():
+def MODE_MULT():
     '''Returns a vertical array of the most frequently occurring, or repetitive values in an array or range of data'''
     pass
     return
 
 
 # MODE.SNGL function
-def MODE.SNGL():
+def MODE_SNGL():
     '''Returns the most common value in a data set'''
     pass
     return
 
 
 # NEGBINOM.DIST function
-def NEGBINOM.DIST():
+def NEGBINOM_DIST():
     '''Returns the negative binomial distribution'''
     pass
     return
 
 
 # NORM.DIST function
-def NORM.DIST():
+def NORM_DIST():
     '''Returns the normal cumulative distribution'''
     pass
     return
 
 
 # NORM.INV function
-def NORM.INV():
+def NORM_INV():
     '''Returns the inverse of the normal cumulative distribution'''
     pass
     return
 
 
 # NORM.S.DIST function
-def NORM.S.DIST():
+def NORM_S_DIST():
     '''Returns the standard normal cumulative distribution'''
     pass
     return
 
 
 # NORM.S.INV function
-def NORM.S.INV():
+def NORM_S_INV():
     '''Returns the inverse of the standard normal cumulative distribution'''
     pass
     return
@@ -511,28 +511,28 @@ def PEARSON():
 
 
 # PERCENTILE.EXC function
-def PERCENTILE.EXC():
+def PERCENTILE_EXC():
     '''Returns the k-th percentile of values in a range, where k is in the range 0..1, exclusive'''
     pass
     return
 
 
 # PERCENTILE.INC function
-def PERCENTILE.INC():
+def PERCENTILE_INC():
     '''Returns the k-th percentile of values in a range'''
     pass
     return
 
 
 # PERCENTRANK.EXC function
-def PERCENTRANK.EXC():
+def PERCENTRANK_EXC():
     '''Returns the rank of a value in a data set as a percentage (0..1, exclusive) of the data set'''
     pass
     return
 
 
 # PERCENTRANK.INC function
-def PERCENTRANK.INC():
+def PERCENTRANK_INC():
     '''Returns the percentage rank of a value in a data set'''
     pass
     return
@@ -560,7 +560,7 @@ def PHI():
 
 
 # POISSON.DIST function
-def POISSON.DIST():
+def POISSON_DIST():
     '''Returns the Poisson distribution'''
     pass
     return
@@ -574,28 +574,28 @@ def PROB():
 
 
 # QUARTILE.EXC function
-def QUARTILE.EXC():
+def QUARTILE_EXC():
     '''Returns the quartile of the data set, based on percentile values from 0..1, exclusive'''
     pass
     return
 
 
 # QUARTILE.INC function
-def QUARTILE.INC():
+def QUARTILE_INC():
     '''Returns the quartile of a data set'''
     pass
     return
 
 
 # RANK.AVG function
-def RANK.AVG():
+def RANK_AVG():
     '''Returns the rank of a number in a list of numbers'''
     pass
     return
 
 
 # RANK.EQ function
-def RANK.EQ():
+def RANK_EQ():
     '''Returns the rank of a number in a list of numbers'''
     pass
     return
@@ -616,7 +616,7 @@ def SKEW():
 
 
 # SKEW.P function
-def SKEW.P():
+def SKEW_P():
     '''Returns the skewness of a distribution based on a population: a characterization of the degree of asymmetry of a distribution around its mean'''
     pass
     return
@@ -644,14 +644,14 @@ def STANDARDIZE():
 
 
 # STDEV.P function
-def STDEV.P():
+def STDEV_P():
     '''Calculates standard deviation based on the entire population'''
     pass
     return
 
 
 # STDEV.S function
-def STDEV.S():
+def STDEV_S():
     '''Estimates standard deviation based on a sample'''
     pass
     return
@@ -679,42 +679,42 @@ def STEYX():
 
 
 # T.DIST function
-def T.DIST():
+def T_DIST():
     '''Returns the Percentage Points (probability) for the Student t-distribution'''
     pass
     return
 
 
 # T.DIST.2T function
-def T.DIST.2T():
+def T_DIST_2T():
     '''Returns the Percentage Points (probability) for the Student t-distribution'''
     pass
     return
 
 
 # T.DIST.RT function
-def T.DIST.RT():
+def T_DIST_RT():
     '''Returns the Student's t-distribution'''
     pass
     return
 
 
 # T.INV function
-def T.INV():
+def T_INV():
     '''Returns the t-value of the Student's t-distribution as a function of the probability and the degrees of freedom'''
     pass
     return
 
 
 # T.INV.2T function
-def T.INV.2T():
+def T_INV_2T():
     '''Returns the inverse of the Student's t-distribution'''
     pass
     return
 
 
 # T.TEST function
-def T.TEST():
+def T_TEST():
     '''Returns the probability associated with a Student's t-test'''
     pass
     return
@@ -735,14 +735,14 @@ def TRIMMEAN():
 
 
 # VAR.P function
-def VAR.P():
+def VAR_P():
     '''Calculates variance based on the entire population'''
     pass
     return
 
 
 # VAR.S function
-def VAR.S():
+def VAR_S():
     '''Estimates variance based on a sample'''
     pass
     return
@@ -763,14 +763,14 @@ def VARPA():
 
 
 # WEIBULL.DIST function
-def WEIBULL.DIST():
+def WEIBULL_DIST():
     '''Returns the Weibull distribution'''
     pass
     return
 
 
 # Z.TEST function
-def Z.TEST():
+def Z_TEST():
     '''Returns the one-tailed probability-value of a z-test'''
     pass
     return

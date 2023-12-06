@@ -91,7 +91,7 @@ def NETWORKDAYS():
 
 
 # NETWORKDAYS.INTL function
-def NETWORKDAYS.INTL():
+def NETWORKDAYS_INTL():
     '''Returns the number of whole workdays between two dates using parameters to indicate which and how many days are weekend days'''
     pass
     return
@@ -154,7 +154,7 @@ def WORKDAY():
 
 
 # WORKDAY.INTL function
-def WORKDAY.INTL():
+def WORKDAY_INTL():
     '''Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days'''
     pass
     return

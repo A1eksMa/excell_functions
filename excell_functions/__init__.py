@@ -1,4 +1,4 @@
-from .comptibility import *
+from .compatibility import *
 from .cube import *
 from .database import *
 from .datetime import *

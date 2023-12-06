@@ -133,7 +133,7 @@ def ERF():
 
 
 # ERF.PRECISE function
-def ERF.PRECISE():
+def ERF_PRECISE():
     '''Returns the error function'''
     pass
     return
@@ -147,7 +147,7 @@ def ERFC():
 
 
 # ERFC.PRECISE function
-def ERFC.PRECISE():
+def ERFC_PRECISE():
     '''Returns the complementary ERF function integrated between x and infinity'''
     pass
     return
