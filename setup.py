@@ -10,13 +10,5 @@ setup(
     author_email='a1ex_ma@mail.ru',
     description='A Python library for emulation Excell functions',
     long_description=open('README.md').read(),
-    install_requires=[
-        import numpy as np
-        import pandas as pd
-        import math
-        import datetime as dt
-
-        import warnings
-        warnings.filterwarnings('ignore')
-    ],
+    install_requires=[],
 )
