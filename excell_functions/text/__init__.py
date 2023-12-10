@@ -1,35 +1,87 @@
 # text
 # ASC function
-def ASC():
-    '''Changes full-width (double-byte) English letters or katakana within a character string to half-width (single-byte) characters'''
-    pass
-    return
+def ASC(text):
+    '''
+    Changes full-width (double-byte) English letters or katakana within a character string to half-width (single-byte) characters
+
+    This Python code defines a function called asc that takes a single character as input and returns its ASCII value using the ord() function
+    '''
+    return ord(text)
 
 
 # ARRAYTOTEXT function
-def ARRAYTOTEXT():
-    '''Returns an array of text values from any specified range'''
-    pass
-    return
+def ARRAYTOTEXT(array):
+    '''
+    Returns an array of text values from any specified range
+    
+    It takes an array as input and returns a string where the elements of the array are concatenated with a space in between
+    '''
+    return ' '.join(map(str, array))
 
 
 # BAHTTEXT function
-def BAHTTEXT():
-    '''Converts a number to text, using the ß (baht) currency format'''
-    pass
-    return
+def BAHTTEXT(number):
+    '''
+    Converts a number to text, using the ß (baht) currency format
+    
+    It takes a number as input and returns the Thai Baht equivalent in words
+    '''
+    units = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']
+    tens = ['', 'Ten', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety']
+    teens = ['Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen']
+    scales = ['', 'Thousand', 'Million', 'Billion', 'Trillion']
+
+    if number == 0:
+        return 'Zero'
+
+    def convert_chunk(chunk):
+        words = []
+        hundreds = chunk // 100
+        if hundreds > 0:
+            words.append(units[hundreds] + ' Hundred')
+        remainder = chunk % 100
+        if remainder >= 20:
+            tens_digit = remainder // 10
+            words.append(tens[tens_digit])
+            ones_digit = remainder % 10
+            if ones_digit > 0:
+                words.append(units[ones_digit])
+        elif remainder >= 10:
+            words.append(teens[remainder - 10])
+        elif remainder > 0:
+            words.append(units[remainder])
+        return ' '.join(words)
+
+    chunks = []
+    while number > 0:
+        chunks.append(number % 1000)
+        number //= 1000
+
+    words = []
+    for i, chunk in enumerate(chunks):
+        if chunk != 0:
+            words.append(convert_chunk(chunk) + ' ' + scales[i])
+
+    return ' '.join(reversed(words))
 
 
 # CHAR function
-def CHAR():
-    '''Returns the character specified by the code number'''
-    pass
-    return
+def CHAR(num):
+    '''
+    Returns the character specified by the code number
+    
+    This function takes an integer as input and returns the corresponding character based on the ASCII value.
+    '''
+    return chr(num)
 
 
 # CLEAN function
 def CLEAN():
-    '''Removes all nonprintable characters from text'''
+    '''
+    Removes all nonprintable characters from text
+    
+    
+    '''
     pass
     return
 
