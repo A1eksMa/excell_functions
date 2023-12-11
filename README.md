@@ -1,5 +1,6 @@
 # excell_functions
-> На данный момент библиотека находится в процессе разработки. Текущее состояние можно посмотреть [здесь](https://github.com/A1eksMa/excell_functions/edit/main/PROGRESS.md)
+> На данный момент библиотека находится в процессе разработки. Текущее состояние можно посмотреть [здесь](https://github.com/A1eksMa/excell_functions/blob/main/PROGRESS.md)
+
 
 ## О проекте
 
