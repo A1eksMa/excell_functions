@@ -44,10 +44,14 @@
 
 ### Второй способ - автоматическая установка из центрального репозитория python
 Второй способ установить библиотеку - загрузить ее из центрального репозитория python с помощью менеджера пакетов pip, используя команду:
-	pip install excell_functions
+```bash
+pip install excell_functions
+ ```
 
 или, в некоторых случаях:
-	pip3 install excell_functions
+```bash
+pip3 install excell_functions
+```
 
 Используйте эту команду с "!" в начале строки, если Вы запускаете ее из виртуального окружения python или Вашей любимой IDE (например, в jupyter notebook):
 ```python
