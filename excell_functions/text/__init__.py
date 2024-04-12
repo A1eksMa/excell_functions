@@ -481,76 +481,142 @@ def TEXT(value, format):
     To use the text() function, simply pass the value and format as arguments.
     The function will return the formatted value according to the specified format.
     '''
- format.format(value)
+    return format.format(value)
 
 
 # TEXTAFTER function
-def TEXTAFTER():
-    '''Returns text that occurs after given character or string'''
-    pass
-    return
+def TEXTAFTER(text, delimiter):
+    '''
+    Returns text that occurs after given character or string
+    
+    The function extracts a substring from a text string after a specific delimiter
+    '''
+    return text.split(delimiter, 1)[1] if delimiter in text else text
 
 
 # TEXTBEFORE function
-def TEXTBEFORE():
-    '''Returns text that occurs before a given character or string'''
-    pass
-    return
+def TEXTBEFORE(text, delimiter):
+    '''
+    Returns text that occurs before a given character or string
+    
+    The function textbefore() takes two parameters:
+    text: The original string from which we want to extract the text before the delimiter.
+    delimiter: The character or substring that marks the boundary for extraction.
+    You can use this Python function to extract text before a specific delimiter in a string
+    '''
+    return text.split(delimiter)[0] if delimiter in text else text
 
 
 # TEXTJOIN function
-def TEXTJOIN():
-    '''Text:    Combines the text from multiple ranges and/or strings'''
-    pass
-    return
+def TEXTJOIN(delimiter, *args):
+    '''
+    Text:    Combines the text from multiple ranges and/or strings
+    
+    The function concatenates the text from multiple ranges and/or strings, with an optional delimiter that separates the values.
+    '''
+    return delimiter.join(str(arg) for arg in args if arg is not None)
 
 
 # TEXTSPLIT function
-def TEXTSPLIT():
-    '''Splits text strings by using column and row delimiters'''
-    pass
-    return
+def TEXTSPLIT(text, delimiter):
+    '''
+    Splits text strings by using column and row delimiters
+    
+    The function splits a text string into separate substrings based on a specified delimiter.'''
+    return text.split(delimiter)
 
 
 # TRIM function
-def TRIM():
-    '''Removes spaces from text'''
-    pass
-    return
+def TRIM(text):
+    '''
+    Removes spaces from text
+    
+    The function removes leading and trailing spaces from a string, leaving only single spaces between words.
+    It takes an `text` as a parameter.
+    It then splits the string based on whitespace using the split() method,
+    which effectively removes leading and trailing spaces.
+    Finally, it joins the resulting list of words back together using a single space ' ' as a separator,
+    effectively trimming the string.
+    '''
+    return ' '.join(text.split())
 
 
 # UNICHAR function
-def UNICHAR():
-    '''Returns the Unicode character that is references by the given numeric value'''
-    pass
-    return
+def UNICHAR(code):
+    '''
+    Returns the Unicode character that is references by the given numeric value
+    
+    The function returns the Unicode character that corresponds to the number provided.
+    '''
+    return chr(code)
 
 
 # UNICODE function
-def UNICODE():
-    '''Returns the number (code point) that corresponds to the first character of the text'''
-    pass
-    return
+def UNICODE(text):
+    '''
+    Returns the number (code point) that corresponds to the first character of the text
+    
+    The function returns the Unicode value of the first character in a text string.
+    '''
+    return ord(text[0])
 
 
 # UPPER function
-def UPPER():
-    '''Converts text to uppercase'''
-    pass
-    return
+def UPPER(text):
+    '''Converts text to uppercase
+    
+    The function converts all letters in a text string to uppercase.
+    '''
+    return text.upper()
 
 
 # VALUE function
-def VALUE():
-    '''Converts a text argument to a number'''
-    pass
-    return
+def VALUE(text):
+    '''
+    Converts a text argument to a number
+    
+    The function converts a text string that represents a number to a numeric value.
+    '''
+    try:
+        return float(text)
+    except ValueError:
+        return None
 
 
 # VALUETOTEXT function
-def VALUETOTEXT():
-    '''Returns text from any specified value'''
-    pass
-    return
+def VALUETOTEXT(value):
+    '''
+    Returns text from any specified value
+    
+    The function converts a numeric value to its text representation.
+    '''
+    ones = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"]
+    teens = ["", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"]
+    tens = ["", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"]
+
+    def convert_below_100(num):
+        if num < 10:
+            return ones[num]
+        elif 10 <= num < 20:
+            return teens[num - 10]
+        else:
+            return tens[num // 10] + " " + ones[num % 10]
+
+    if value == 0:
+        return "Zero"
+    elif value < 0:
+        return "Negative " + value_to_text(abs(value))
+    elif value < 10:
+        return ones[value]
+    elif value < 100:
+        return convert_below_100(value)
+    elif value < 1000:
+        return ones[value // 100] + " Hundred " + value_to_text(value % 100)
+    elif value < 1000000:
+        return value_to_text(value // 1000) + " Thousand " + value_to_text(value % 1000)
+    elif value < 1000000000:
+        return value_to_text(value // 1000000) + " Million " + value_to_text(value % 1000000)
+    else:
+        return "Value out of range"
 
 
