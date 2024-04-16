@@ -20,7 +20,6 @@
 
 <details>
   <details>
-    
   <summary> <i>See more</i> </summary></details>
   
   blabla
