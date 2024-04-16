@@ -1,7 +1,7 @@
 ## LOGICAL
 Code has been written for 19 of 19 functions
 
-![](https://geps.dev/progress/19?successColor)
+![](https://geps.dev/progress/19?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 ## LOOKUP
 Code has been written for 0 of 37 functions
