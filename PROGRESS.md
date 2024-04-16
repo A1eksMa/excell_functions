@@ -1,7 +1,7 @@
 ## LOGICAL
 Code has been written for 19 of 19 functions
 
-<img src='https://geps.dev/progress/10?dangerColor=800000&warningColor=ff9900&successColor=006600'>
+<img src='https://geps.dev/progress/10?dangerColor=800000&warningColor=ff9900&successColor=006600' width=100%>
 
 ![](https://geps.dev/progress/50?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
