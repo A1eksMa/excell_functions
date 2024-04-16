@@ -11,7 +11,7 @@ __pycache__/
 
 # working stuff
 scripts/
-
+excell_functions/scripts/
 
 # Distribution / packaging
 .Python
