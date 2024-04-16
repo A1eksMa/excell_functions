@@ -2,6 +2,7 @@
 
 <details>
 <summary> <h2>LOGICAL</h2> </summary>
+  
 Code has been written for 19 of 19 functions
 
 <img src="https://geps.dev/progress/1?dangerColor=800000&warningColor=ff9900&successColor=006600" width=35%>
