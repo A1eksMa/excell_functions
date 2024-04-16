@@ -23,5 +23,5 @@
   <summary> <i>See more</i> </summary></details>
   
   blabla
-  <details>
+  </details>
 </details>
