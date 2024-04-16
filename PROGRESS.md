@@ -1,11 +1,8 @@
 ## LOGICAL
 Code has been written for 19 of 19 functions
 
-<img src='https://geps.dev/progress/56?dangerColor=800000&warningColor=ff9900&successColor=006600' width=50%>
+<img src='https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600' width=35%>
 
-![](https://geps.dev/progress/50?dangerColor=800000&warningColor=ff9900&successColor=006600)
-
-![](https://geps.dev/progress/75?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 ## LOOKUP
 Code has been written for 0 of 37 functions
