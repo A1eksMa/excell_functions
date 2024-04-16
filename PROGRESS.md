@@ -1,6 +1,7 @@
 ## LOGICAL
 Code has been written for 19 of 19 functions
 <progress value=19 max=19> </progress>
+![](https://geps.dev/progress/19)
 
 ## LOOKUP
 Code has been written for 0 of 37 functions
