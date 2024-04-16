@@ -19,15 +19,25 @@ Tests have been completed successfully for 0 of 19 functions
 <img src="https://geps.dev/progress/0?dangerColor=800000&warningColor=ff9900&successColor=006600" width=35%>
 
 | № | Function name | Description| Code | Excell test | Python test | Well done |
+
 | 1 | AND() | 'Returns TRUE if all of its arguments are TRUE' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test AND() function has not been written yet|❌ Tests  has not been written yet|
+
 | 2 | BYCOL() | 'Applies a LAMBDA to each column and returns an array of the results' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test BYCOL() function has not been written yet|❌ Tests  has not been written yet|
+
 | 3 | BYROW() | 'Applies a LAMBDA to each row and returns an array of the results' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test BYROW() function has not been written yet|❌ Tests  has not been written yet|
+
 | 4 | FALSE() | 'Returns the logical value FALSE' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test FALSE() function has not been written yet|❌ Tests  has not been written yet|
+
 | 5 | IF() | 'Specifies a logical test to perform' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|✔️ Python test IF() function has been written|❌ Tests  has not been written yet|
+
 | 6 | IFERROR() | 'Returns a value you specify if a formula evaluates to an error. Otherwise, returns the result of the formula' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test IFERROR() function has not been written yet|❌ Tests  has not been written yet|
+
 | 7 | IFNA() | 'Returns the value you specify if the expression resolves to #N/A, otherwise returns the result of the expression' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test IFNA() function has not been written yet|❌ Tests  has not been written yet|
+
 | 8 | IFS() | 'Checks whether one or more conditions are met and returns a value that corresponds to the first TRUE condition' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test IFS() function has not been written yet|❌ Tests  has not been written yet|
+
 | 9 | LAMBDA() | 'Create custom, reusable functions and call them by a friendly name' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test LAMBDA() function has not been written yet|❌ Tests  has not been written yet|
+
 | 10 | LET() | 'Assigns names to calculation results' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test LET() function has not been written yet|❌ Tests  has not been written yet|
 | 11 | MAKEARRAY() | 'Returns a calculated array of a specified row and column size, by applying a LAMBDA' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test MAKEARRAY() function has not been written yet|❌ Tests  has not been written yet|
 | 12 | MAP() | 'Returns an array formed by mapping each value in the array(s) to a new value by applying a LAMBDA to create a new value' | ✔️ Code has been written|❌ Error: name 'openpyxl' is not defined|❌ Python test MAP() function has not been written yet|❌ Tests  has not been written yet|
