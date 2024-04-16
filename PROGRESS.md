@@ -17,5 +17,6 @@
 ### 0 of 19 successfully
 
 <img src='https://geps.dev/progress/0?dangerColor=800000&warningColor=ff9900&successColor=006600' width=35%>
-
+<details>
+<summary> <i>See more</i> </summary></details>
 </details>
