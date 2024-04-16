@@ -1,13 +1,7 @@
 ## LOGICAL
 Code has been written for 19 of 19 functions
-<progress value=19 max=19></progress>
-[=0% "0%"]
-[=5% "5%"]
-[=25% "25%"]
-[=45% "45%"]
-[=65% "65%"]
-[=85% "85%"]
-[=100% "100%"]
+<progress value=19 max=19> </progress>
+
 ## LOOKUP
 Code has been written for 0 of 37 functions
 <progress value=0 max=37></progress>
