@@ -1,4 +1,4 @@
-# Excell function library
+# Excell functions library
 
 <details>
 <summary> <h2>LOGICAL</h2> </summary>
